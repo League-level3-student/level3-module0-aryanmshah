@@ -33,13 +33,15 @@ for (int k = 0; k < ponton.length; k++) {
 }
 		//9. without printing the entire array, print only the smallest number on the array
 int small=50;
+
 for (int i = 0; i < ponton.length; i++) {
 	if (ponton[i]<small) {
 		small=ponton[i];
+		System.out.println(small);
 	}
 }
 		//10 print the entire array to see if step 8 was correct
-
+System.out.println(ponton);
 		//11. print the largest number in the array.
 		
 		//12. print only the last element in the array
